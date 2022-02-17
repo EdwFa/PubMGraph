@@ -17,7 +17,6 @@ print("Найдено", pubmed.getTotalResultsCount(query))
 # выполняем
 results = list(pubmed.query(query, max_results=10000))
 
-
 # Создаем Node для каждого author
 nodes = {
     author: index
